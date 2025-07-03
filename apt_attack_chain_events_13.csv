@@ -1,0 +1,67 @@
+Timestamp_Readable,Src_IP,Dst_IP,EventType,event_count,Details,Source
+2021-05-10 06:30:00,172.16.128.113,10.13.1.1,Direct Attack,1,"BRUTE_FORCE - {'host_ip': '10.13.1.1', 'feature_type': 'behavior_volume', 'deviation_percent': np.float64(-54.71504017379195)}",Anomaly Log
+2021-05-10 06:35:00,172.16.128.113,10.13.1.1,Direct Attack,1,"DOS_ATTACK - {'host_ip': '10.13.1.1', 'feature_type': 'behavior_volume', 'deviation_percent': np.float64(-57.49710023335122)}",Anomaly Log
+2021-05-10 06:40:00,172.16.128.113,10.13.1.1,Direct Attack,1,"BRUTE_FORCE - {'host_ip': '10.13.1.1', 'feature_type': 'behavior_volume', 'deviation_percent': np.float64(-64.76553026043909)}",Anomaly Log
+2021-05-10 07:00:00,10.13.1.2,10.13.1.1,Collaborative Attack 1,1,Node 10.13.1.2:137 (Zombie) attacked 10.13.1.1:137 before a subsequent attack event on victim 10.13.1.1,Inferred Logic
+2021-05-10 07:00:00,10.13.1.1,10.13.1.2,Direct Attack,1,"PORT_SCAN - {'host_ip': '10.13.1.1', 'feature_type': 'behavior_volume', 'deviation_percent': np.float64(2653.4289286122)}",Anomaly Log
+2021-05-10 07:05:00,10.13.1.1,10.13.1.2,Direct Attack,1,"BRUTE_FORCE - {'host_ip': '10.13.1.1', 'feature_type': 'behavior_volume', 'deviation_percent': np.float64(10000.0)}",Anomaly Log
+2021-05-10 07:05:00,10.13.1.1,10.13.1.3,Direct Attack,2,"PORT_SCAN - {'host_ip': '10.13.1.1', 'feature_type': 'behavior_volume', 'deviation_percent': np.float64(10000.0)}",Anomaly Log
+2021-05-10 07:05:00,10.13.1.3,10.1.2.2,Direct Attack,1,"DOS_ATTACK - {'host_ip': '10.13.1.3', 'feature_type': 'behavior_volume', 'deviation_percent': np.float64(-82.26497191552016)}",Anomaly Log
+2021-05-10 07:05:00,10.13.1.3,10.13.1.254,Direct Attack,1,"DOS_ATTACK - {'host_ip': '10.13.1.3', 'feature_type': 'behavior_volume', 'deviation_percent': np.float64(-82.26497191552016)}",Anomaly Log
+2021-05-10 07:05:00,10.13.1.2,10.13.1.255,Lateral Movement,1,Node 10.13.1.2:138 (victim/zombie) moved laterally to 10.13.1.255:138 in the same subnet soon after being attacked,Inferred Logic
+2021-05-10 07:10:00,10.13.1.1,10.13.1.3,Direct Attack,1,"PORT_SCAN - {'host_ip': '10.13.1.1', 'feature_type': 'behavior_volume', 'deviation_percent': np.float64(1505.053221283362)}",Anomaly Log
+2021-05-10 07:15:00,10.13.1.1,142.250.180.74,Direct Attack,1,"BRUTE_FORCE - {'host_ip': '10.13.1.1', 'feature_type': 'behavior_volume', 'deviation_percent': np.float64(1610.5877324161029)}",Anomaly Log
+2021-05-10 07:15:00,10.13.1.2,10.13.1.255,Lateral Movement,1,Node 10.13.1.2:138 (victim/zombie) moved laterally to 10.13.1.255:138 in the same subnet soon after being attacked,Inferred Logic
+2021-05-10 07:15:00,10.13.1.1,10.13.1.2,Lateral Movement,1,Node 10.13.1.1:58853 (victim/zombie) moved laterally to 10.13.1.2:8080 in the same subnet soon after being attacked,Inferred Logic
+2021-05-10 07:20:00,10.13.1.1,10.13.1.2,Direct Attack,2,"BRUTE_FORCE - {'host_ip': '10.13.1.2', 'feature_type': 'behavior_volume', 'deviation_percent': np.float64(-72.19076407509407)}",Anomaly Log
+2021-05-10 07:25:00,10.13.1.1,10.13.1.2,Direct Attack,2,"DOS_ATTACK - {'host_ip': '10.13.1.1', 'feature_type': 'behavior_volume', 'deviation_percent': np.float64(2137.763581244809)}",Anomaly Log
+2021-05-10 07:25:00,10.13.1.1,142.250.184.74,Direct Attack,1,"BRUTE_FORCE - {'host_ip': '10.13.1.1', 'feature_type': 'behavior_volume', 'deviation_percent': np.float64(2137.763581244809)}",Anomaly Log
+2021-05-10 07:25:00,10.13.1.1,142.250.180.106,Direct Attack,1,"BRUTE_FORCE - {'host_ip': '10.13.1.1', 'feature_type': 'behavior_volume', 'deviation_percent': np.float64(2137.763581244809)}",Anomaly Log
+2021-05-10 07:25:00,10.13.1.2,10.13.1.255,Lateral Movement,1,Node 10.13.1.2:138 (victim/zombie) moved laterally to 10.13.1.255:138 in the same subnet soon after being attacked,Inferred Logic
+2021-05-10 07:30:00,10.13.1.2,10.13.1.255,Lateral Movement,1,Node 10.13.1.2:137 (victim/zombie) moved laterally to 10.13.1.255:137 in the same subnet soon after being attacked,Inferred Logic
+2021-05-10 07:30:00,10.13.1.1,10.13.1.2,Direct Attack,1,"DOS_ATTACK - {'host_ip': '10.13.1.1', 'feature_type': 'behavior_volume', 'deviation_percent': np.float64(2296.6929898546264)}",Anomaly Log
+2021-05-10 07:30:00,10.13.1.1,142.250.184.74,Direct Attack,1,"BRUTE_FORCE - {'host_ip': '10.13.1.1', 'feature_type': 'behavior_volume', 'deviation_percent': np.float64(2296.6929898546264)}",Anomaly Log
+2021-05-10 07:35:00,10.13.1.2,10.13.1.255,Lateral Movement,1,Node 10.13.1.2:137 (victim/zombie) moved laterally to 10.13.1.255:137 in the same subnet soon after being attacked,Inferred Logic
+2021-05-10 07:40:00,10.13.1.1,10.13.1.2,Lateral Movement,1,Node 10.13.1.1:nan (victim/zombie) moved laterally to 10.13.1.2:nan in the same subnet soon after being attacked,Inferred Logic
+2021-05-10 07:40:00,10.13.1.3,10.13.1.2,Lateral Movement,1,Node 10.13.1.3:nan (victim/zombie) moved laterally to 10.13.1.2:nan in the same subnet soon after being attacked,Inferred Logic
+2021-05-10 07:40:00,10.13.1.2,10.13.1.255,Lateral Movement,1,Node 10.13.1.2:137 (victim/zombie) moved laterally to 10.13.1.255:137 in the same subnet soon after being attacked,Inferred Logic
+2021-05-10 07:40:00,10.13.1.2,10.13.1.3,Reverse CC Connection,1,"Node 10.13.1.2:49230 (Zombie) connected back to Zombie 10.13.1.3:8080 (same subnet, time window satisfied)",Inferred Logic
+2021-05-10 07:45:00,10.13.1.2,10.13.1.255,Lateral Movement,1,Node 10.13.1.2:137 (victim/zombie) moved laterally to 10.13.1.255:137 in the same subnet soon after being attacked,Inferred Logic
+2021-05-10 07:45:00,10.13.1.2,10.13.1.1,Data Upload,1,"{'host_ip': '10.13.1.1', 'feature_type': 'behavior_volume', 'deviation_percent': np.float64(1528.2220171897557)}",Inferred Logic (from Anomaly)
+2021-05-10 07:45:00,10.13.1.1,172.16.128.113,Data Upload,1,"{'host_ip': '10.13.1.1', 'feature_type': 'behavior_volume', 'deviation_percent': np.float64(1528.2220171897557)}",Inferred Logic (from Anomaly)
+2021-05-10 07:45:00,10.13.1.2,10.13.1.3,Direct Attack,2,"DOS_ATTACK - {'host_ip': '10.13.1.3', 'feature_type': 'behavior_volume', 'deviation_percent': np.float64(-72.49668952900618)}",Anomaly Log
+2021-05-10 07:45:00,10.13.1.3,10.13.1.254,Direct Attack,1,"DOS_ATTACK - {'host_ip': '10.13.1.3', 'feature_type': 'behavior_volume', 'deviation_percent': np.float64(-72.49668952900618)}",Anomaly Log
+2021-05-10 07:50:00,172.16.128.113,10.13.1.1,Data Download,1,"{'host_ip': '10.13.1.1', 'feature_type': 'behavior_volume', 'deviation_percent': np.float64(1461.517962596512)}",Inferred Logic (from Anomaly)
+2021-05-10 07:50:00,10.13.1.2,10.13.1.255,Lateral Movement,1,Node 10.13.1.2:138 (victim/zombie) moved laterally to 10.13.1.255:138 in the same subnet soon after being attacked,Inferred Logic
+2021-05-10 07:50:00,10.13.1.1,10.13.1.2,Data Download,1,"{'host_ip': '10.13.1.1', 'feature_type': 'behavior_volume', 'deviation_percent': np.float64(1461.517962596512)}",Inferred Logic (from Anomaly)
+2021-05-10 07:50:00,10.13.1.2,10.13.1.3,Direct Attack,1,"DOS_ATTACK - {'host_ip': '10.13.1.2', 'feature_type': 'ip_ratio, tcp_ratio, udp_ratio, syn_count_ratio', 'deviation_percent': -257.60743324483076}",Anomaly Log
+2021-05-10 07:55:00,10.13.1.2,10.13.1.255,Lateral Movement,1,Node 10.13.1.2:137 (victim/zombie) moved laterally to 10.13.1.255:137 in the same subnet soon after being attacked,Inferred Logic
+2021-05-10 07:55:00,10.13.1.2,10.13.1.3,Reverse CC Connection,1,"Node 10.13.1.2:49428 (Zombie) connected back to Zombie 10.13.1.3:21 (same subnet, time window satisfied)",Inferred Logic
+2021-05-10 08:00:00,10.13.1.2,10.13.1.3,Reverse CC Connection,1,"Node 10.13.1.2:49432 (Zombie) connected back to Zombie 10.13.1.3:21 (same subnet, time window satisfied)",Inferred Logic
+2021-05-10 08:05:00,10.13.1.2,10.13.1.255,Lateral Movement,1,Node 10.13.1.2:138 (victim/zombie) moved laterally to 10.13.1.255:138 in the same subnet soon after being attacked,Inferred Logic
+2021-05-10 08:05:00,10.13.1.2,10.13.1.1,Reverse CC Connection,1,"Node 10.13.1.2:49434 (Zombie) connected back to Zombie 10.13.1.1:22 (same subnet, time window satisfied)",Inferred Logic
+2021-05-10 08:10:00,10.13.1.1,10.13.1.2,Persistence 1,1,Node 10.13.1.1:43634 connected to 10.13.1.2:22 soon after CC 10.13.1.2:49434->10.13.1.1:22,Inferred Logic
+2021-05-10 08:15:00,10.13.1.2,10.13.1.255,Lateral Movement,1,Node 10.13.1.2:138 (victim/zombie) moved laterally to 10.13.1.255:138 in the same subnet soon after being attacked,Inferred Logic
+2021-05-10 08:15:00,10.13.1.3,10.1.2.2,Direct Attack,1,"DOS_ATTACK - {'host_ip': '10.13.1.3', 'feature_type': 'behavior_volume', 'deviation_percent': np.float64(-66.53368308239067)}",Anomaly Log
+2021-05-10 08:15:00,10.13.1.2,10.13.1.3,Direct Attack,2,"DOS_ATTACK - {'host_ip': '10.13.1.2', 'feature_type': 'ip_ratio, tcp_ratio, udp_ratio, syn_count_ratio', 'deviation_percent': -182.5535978264115}",Anomaly Log
+2021-05-10 08:15:00,10.13.1.1,10.13.1.2,Persistence 1,1,Node 10.13.1.1:43636 connected to 10.13.1.2:22 soon after CC 10.13.1.2:49434->10.13.1.1:22,Inferred Logic
+2021-05-10 08:20:00,10.13.1.2,10.13.1.3,Direct Attack,2,"DOS_ATTACK - {'host_ip': '10.13.1.2', 'feature_type': 'ip_ratio, tcp_ratio, udp_ratio, syn_count_ratio', 'deviation_percent': -213.97242090438894}",Anomaly Log
+2021-05-10 08:20:00,10.13.1.1,10.13.1.2,Persistence 1,1,Node 10.13.1.1:43637 connected to 10.13.1.2:22 soon after CC 10.13.1.2:49434->10.13.1.1:22,Inferred Logic
+2021-05-10 08:20:00,10.13.1.3,10.13.1.254,Direct Attack,1,"DOS_ATTACK - {'host_ip': '10.13.1.3', 'feature_type': 'behavior_volume', 'deviation_percent': np.float64(-77.43010220731904)}",Anomaly Log
+2021-05-10 08:25:00,10.13.1.2,10.13.1.255,Lateral Movement,1,Node 10.13.1.2:138 (victim/zombie) moved laterally to 10.13.1.255:138 in the same subnet soon after being attacked,Inferred Logic
+2021-05-10 08:25:00,10.13.1.2,10.13.1.3,Reverse CC Connection,1,"Node 10.13.1.2:49710 (Zombie) connected back to Zombie 10.13.1.3:3389 (same subnet, time window satisfied)",Inferred Logic
+2021-05-10 08:30:00,10.13.1.2,10.13.1.3,Direct Attack,2,"BRUTE_FORCE - {'host_ip': '10.13.1.2', 'feature_type': 'behavior_volume', 'deviation_percent': np.float64(5218.067239274999)}",Anomaly Log
+2021-05-10 08:30:00,10.13.1.3,10.13.1.254,Direct Attack,1,"DOS_ATTACK - {'host_ip': '10.13.1.3', 'feature_type': 'behavior_volume', 'deviation_percent': np.float64(-60.54212816229151)}",Anomaly Log
+2021-05-10 08:35:00,10.13.1.2,10.13.1.3,Direct Attack,2,"BRUTE_FORCE - {'host_ip': '10.13.1.2', 'feature_type': 'behavior_volume', 'deviation_percent': np.float64(6482.774417059089)}",Anomaly Log
+2021-05-10 08:35:00,10.13.1.3,10.1.2.2,Direct Attack,1,"DOS_ATTACK - {'host_ip': '10.13.1.3', 'feature_type': 'behavior_volume', 'deviation_percent': np.float64(-70.39513748504149)}",Anomaly Log
+2021-05-10 08:40:00,10.13.1.2,10.13.1.255,Lateral Movement,1,Node 10.13.1.2:138 (victim/zombie) moved laterally to 10.13.1.255:138 in the same subnet soon after being attacked,Inferred Logic
+2021-05-10 08:50:00,10.13.1.2,10.13.1.255,Lateral Movement,1,Node 10.13.1.2:138 (victim/zombie) moved laterally to 10.13.1.255:138 in the same subnet soon after being attacked,Inferred Logic
+2021-05-10 09:05:00,10.13.1.2,10.13.1.255,Lateral Movement,1,Node 10.13.1.2:138 (victim/zombie) moved laterally to 10.13.1.255:138 in the same subnet soon after being attacked,Inferred Logic
+2021-05-10 09:15:00,10.13.1.2,10.13.1.255,Lateral Movement,1,Node 10.13.1.2:138 (victim/zombie) moved laterally to 10.13.1.255:138 in the same subnet soon after being attacked,Inferred Logic
+2021-05-10 09:25:00,10.13.1.2,10.13.1.255,Lateral Movement,1,Node 10.13.1.2:138 (victim/zombie) moved laterally to 10.13.1.255:138 in the same subnet soon after being attacked,Inferred Logic
+2021-05-10 09:40:00,10.13.1.2,10.13.1.255,Lateral Movement,1,Node 10.13.1.2:138 (victim/zombie) moved laterally to 10.13.1.255:138 in the same subnet soon after being attacked,Inferred Logic
+2021-05-10 09:45:00,10.13.1.2,10.13.1.3,Lateral Movement,1,Node 10.13.1.2:60670 (victim/zombie) moved laterally to 10.13.1.3:80 in the same subnet soon after being attacked,Inferred Logic
+2021-05-10 09:50:00,10.13.1.2,10.13.1.255,Lateral Movement,1,Node 10.13.1.2:138 (victim/zombie) moved laterally to 10.13.1.255:138 in the same subnet soon after being attacked,Inferred Logic
+2021-05-10 09:50:00,10.13.1.2,10.13.1.3,Direct Attack,1,"BRUTE_FORCE - {'host_ip': '10.13.1.2', 'feature_type': 'behavior_volume', 'deviation_percent': np.float64(10000.0)}",Anomaly Log
+2021-05-10 10:05:00,10.13.1.2,10.13.1.255,Lateral Movement,1,Node 10.13.1.2:138 (victim/zombie) moved laterally to 10.13.1.255:138 in the same subnet soon after being attacked,Inferred Logic
+2021-05-10 10:10:00,10.13.1.2,10.13.1.255,Lateral Movement,1,Node 10.13.1.2:138 (victim/zombie) moved laterally to 10.13.1.255:138 in the same subnet soon after being attacked,Inferred Logic
